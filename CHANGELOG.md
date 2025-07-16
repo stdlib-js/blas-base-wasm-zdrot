@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-07-16)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
 -   [`9b5fac2`](https://github.com/stdlib-js/stdlib/commit/9b5fac23e4e50e389738b2b749e1ec6922146ded) - **test:** update test descriptions _(by Athan Reines)_
 -   [`074055b`](https://github.com/stdlib-js/stdlib/commit/074055b3bd0bb5982abef3cc69b4cab5f2c3942a) - **docs:** remove unused import in various examples in `blas/base/wasm` [(#6782)](https://github.com/stdlib-js/stdlib/pull/6782) _(by Shabareesh Shetty)_
 -   [`01a2787`](https://github.com/stdlib-js/stdlib/commit/01a27876b6668ecb1fb20285913270e14ae663a0) - **docs:** update examples for `blas/base/wasm/zdrot` [(#5805)](https://github.com/stdlib-js/stdlib/pull/5805) _(by Gururaj Gurram)_
