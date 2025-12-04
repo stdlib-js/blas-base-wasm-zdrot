@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-19)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
@@ -26,12 +26,26 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8700](https://github.com/stdlib-js/stdlib/issues/8700)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`59db850`](https://github.com/stdlib-js/stdlib/commit/59db8508c6113b3c5e3951b34877fc933d317ccd) - **chore:** address commit comments [(#8752)](https://github.com/stdlib-js/stdlib/pull/8752) _(by utshav khatiwada)_
+-   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`73e4725`](https://github.com/stdlib-js/stdlib/commit/73e4725ad922926de4747c08a8121c99ef8a548d) - **style:** remove extraneous empty line _(by Philipp Burckhardt)_
 -   [`0ef99a2`](https://github.com/stdlib-js/stdlib/commit/0ef99a2aadba86132750b40f1fa8bb131a2f859d) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
 -   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
@@ -50,13 +64,14 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
 -   Philipp Burckhardt
 -   Shabareesh Shetty
+-   utshav khatiwada
 
 </section>
 
