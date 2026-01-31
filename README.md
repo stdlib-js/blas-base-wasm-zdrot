@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+zdrot = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-zdrot/tags). For example,
+
+```javascript
 zdrot = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var zdrot = require( 'path/to/vendor/umd/blas-base-wasm-zdrot/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -365,7 +370,7 @@ The function has the following additional parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
