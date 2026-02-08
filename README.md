@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@esm/index.mjs';
+import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.1-esm/index.mjs';
 ```
 
 #### zdrot.main( N, zx, strideX, zy, strideY, c, s )
@@ -177,7 +177,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.m
 import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@esm/index.mjs';
-import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@esm/index.mjs';
+import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.1-esm/index.mjs';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -251,7 +251,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.m
 import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@esm/index.mjs';
-import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@esm/index.mjs';
+import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.1-esm/index.mjs';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -343,7 +343,7 @@ import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@esm/index.mjs
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import reinterpretComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex128@esm/index.mjs';
-import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@esm/index.mjs';
+import zdrot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-zdrot@v0.1.1-esm/index.mjs';
 
 // Specify a vector length:
 var N = 5;
