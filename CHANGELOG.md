@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-10-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f9aa9fb`](https://github.com/stdlib-js/stdlib/commit/f9aa9fb2046ed69fed2591f791ed7c8c5a03171a) - **test:** migrate `blas/base/wasm/zdrot` to ULP-based assertions [(#16159)](https://github.com/stdlib-js/stdlib/pull/16159) _(by Athan Reines)_
 -   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5791dde`](https://github.com/stdlib-js/stdlib/commit/5791dde65a21b17fe40c7650a314c28922f1d62c) - **docs:** fix examples and descriptions [(#13601)](https://github.com/stdlib-js/stdlib/pull/13601) _(by Philipp Burckhardt)_
 -   [`94e67fd`](https://github.com/stdlib-js/stdlib/commit/94e67fd1ed8a206d4209c1071c378661cc9ab16b) - **build:** add scripts to insert license headers [(#13482)](https://github.com/stdlib-js/stdlib/pull/13482) _(by Prashant Kumar Yadav)_
